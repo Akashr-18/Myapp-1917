@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #000; /* Dark background */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0A0A0A;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.navigation ul li a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.contact-btn {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #002B36; /* Dark teal background */
+    background-image: url('images\background.jpg'); /* Add background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.primary {
+    background-color: #00C853;
+    color: #fff;
+}
+
+.secondary {
+    background-color: #ffffff;
+    color: #00C853;
+    border: 2px solid #00C853;
+}
+
+.footer {
+    background-color: #0A0A0A;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-links p, .footer-links a {
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-image: url('images\background.jpg');
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the background image */
+    padding: 20px; /* Adjust the padding as needed */
+    color: white; /* Text color for better readability */
+}
+
+/* Apply a background image to the footer */
+footer {
+    background-image: url('images\background.jpg');
+    background-size: cover; /* Ensures the image covers the entire footer */
+    background-position: center; /* Centers the background image */
+    padding: 20px; /* Adjust the padding as needed */
+    color: white; /* Text color for better readability */
+}
